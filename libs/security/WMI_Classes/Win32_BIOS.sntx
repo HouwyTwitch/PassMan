@@ -1,0 +1,7 @@
+[Dynamic, Provider("CIMWin32"), UUID("{8502C4E1-5FBB-11D2-AAC1-006008C78BC7}"), AMENDMENT]
+class Win32_BIOS : CIM_BIOSElement
+{
+  string   Manufacturer;
+  string   SerialNumber;
+  string   Version;
+};

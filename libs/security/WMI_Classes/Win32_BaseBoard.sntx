@@ -1,0 +1,12 @@
+[Dynamic, Provider("CIMWin32"), UUID("{FAF76B95-798C-11D2-AAD1-006008C78BC7}"), AMENDMENT]
+class Win32_BaseBoard : CIM_Card
+{
+  string   Manufacturer;
+  string   Model;
+  string   OtherIdentifyingInfo;
+  string   PartNumber;
+  string   Product;
+  string   SerialNumber;
+  string   Tag;
+  string   Version;
+};

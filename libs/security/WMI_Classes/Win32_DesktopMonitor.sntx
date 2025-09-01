@@ -1,0 +1,11 @@
+[Dynamic, Provider("CIMWin32"), UUID("{1008CCF0-7BFF-11D2-AAD2-006008C78BC7}"), AMENDMENT]
+class Win32_DesktopMonitor : CIM_DesktopMonitor
+{
+  string   MonitorManufacturer;
+  uint32   PixelsPerXLogicalInch;
+  uint32   PixelsPerYLogicalInch;
+  string   PNPDeviceID;
+  uint32   ScreenHeight;
+  uint32   ScreenWidth;
+  string   SystemName;
+};

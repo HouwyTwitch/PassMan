@@ -1,0 +1,6 @@
+[Dynamic, Provider("CIMWin32"), UUID("{8502C4BA-5FBB-11D2-AAC1-006008C78BC7}"), AMENDMENT]
+class Win32_MotherboardDevice : CIM_LogicalDevice
+{
+  string   PrimaryBusType;
+  string   SecondaryBusType;
+};

@@ -1,0 +1,12 @@
+[Dynamic, Provider("CIMWin32"), UUID("{8502C4B2-5FBB-11D2-AAC1-006008C78BC7}"), AMENDMENT]
+class Win32_DiskDrive : CIM_DiskDrive
+{
+  uint32   BytesPerSector;
+  string   InterfaceType;
+  string   Manufacturer;
+  string   Model;
+  string   PNPDeviceID;
+  uint32   SectorsPerTrack;
+  string   SerialNumber;
+  uint64   Size;
+};

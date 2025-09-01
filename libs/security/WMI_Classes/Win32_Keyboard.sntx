@@ -1,0 +1,7 @@
+[Dynamic, Provider("CIMWin32"), UUID("{8502C4B5-5FBB-11D2-AAC1-006008C78BC7}"), AMENDMENT]
+class Win32_Keyboard : CIM_Keyboard
+{
+  string   DeviceID;
+  string   Layout;
+  string   PNPDeviceID;
+};

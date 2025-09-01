@@ -1,0 +1,18 @@
+[Dynamic, Provider("CIMWin32"), UUID("{8502C4BB-5FBB-11D2-AAC1-006008C78BC7}"), AMENDMENT]
+class Win32_Processor : CIM_Processor
+{
+  string   Caption;
+  uint32   ExtClock;
+  uint32   L2CacheSize;
+  uint32   L3CacheSize;
+  string   Manufacturer;
+  uint32   MaxClockSpeed;
+  string   Name;
+  uint32   NumberOfCores;
+  uint32   NumberOfLogicalProcessors;
+  string   ProcessorId;
+  uint16   Revision;
+  string   Stepping;
+  string   SystemName;
+  uint32   ThreadCount;
+};

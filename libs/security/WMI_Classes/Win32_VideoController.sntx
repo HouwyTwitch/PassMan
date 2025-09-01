@@ -1,0 +1,15 @@
+[Dynamic, Provider("CIMWin32"), UUID("{1008CCF1-7BFF-11D2-AAD2-006008C78BC7}"), AMENDMENT]
+class Win32_VideoController : CIM_PCVideoController
+{
+  string   AdapterDACType;
+  uint32   AdapterRAM;
+  uint32   CurrentBitsPerPixel;
+  uint32   CurrentHorizontalResolution;
+  uint64   CurrentNumberOfColors;
+  uint32   CurrentRefreshRate;
+  uint32   CurrentVerticalResolution;
+  string   Name;
+  string   PNPDeviceID;
+  uint32   SystemPaletteEntries;
+  string   VideoProcessor;
+};
